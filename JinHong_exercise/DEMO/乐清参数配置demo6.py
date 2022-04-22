@@ -1,7 +1,7 @@
+
 #登录极简审批系统
-# url = "http://test-tech-web.leadinsight.cn/yueqingpc/Login"
-url = "http://lingjian-web.leadinsight.cn/yueqingpc/Login"
-phone = "17820224145"
+url = "http://test-tech-web.leadinsight.cn/yueqingpc/Login"
+phone = "18246117779"
 # 征占地面积
 area = 200000
 # 挖填土方
@@ -10,7 +10,7 @@ traditional_cure = 200000
 
 # 报告表内容
 
-# 报告书文件目录：C:\Users\63212\Desktop\乐清\uplanding\报告书文件  注：文件名称必须要以当前文件名称相同(报告书shp文件.zip\方案报告书.pdf\报告书申请文件.pdf)
+# 报告书文件目录：C:\Users\63212\Desktop\乐清\uplanding\报告书文件  注：文件名称必须要以当前文件名称相同(报告书shp文件.zip\报告书批复文件.pdf\报告书申请文件.pdf)
 # 报告书内容
 class Report_data():
     # 项目类型_房地产项目

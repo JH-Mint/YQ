@@ -2,10 +2,12 @@
 from selenium import webdriver
 import time
 from selenium.webdriver.support.wait import WebDriverWait
-from YQ.message import *
+from DEMO.乐清参数配置demo6 import *
 #登录、咨询
 class Login_Consult(object):
+    def Login_consult(self):
         webpage = webdriver.Chrome(r'chromedriver')
+        # 隐式等待(全局只需设置一次，元素或脚本执行的结果在设定的最长时间内出现则返回，未出现则在最长时间后抛出找不到元素的异常)
         webpage.implicitly_wait(120)
         # 用get打开乐清pc页面
         webpage.get( url )
@@ -48,8 +50,8 @@ class Login_Consult(object):
         webpage.find_element_by_xpath(
             "/html/body/div[1]/section/section/main/div/div[2]/div/form/div[7]/div/button[2]").click()
         # time.sleep(1)
-        # 立即申报(总有出错)
-        webpage.find_element_by_xpath("//*[@id='app']/section/section/main/div/div[2]/div/div/button").click()
+        # 立即申报
+        webpage.find_element_by_xpath("/html/body/div/section/section/main/div/div[2]/div/div/button").click()
         # time.sleep(3)
 # # login = driver.find_element(By.CSS_SELECTOR, ".el-button--primary").click()
 # driver.find_element_by_class_name("el-button--primary").click()
