@@ -1,2 +1,2 @@
-泥巴
-nnn 
+python基础知识：
+	https://blog.csdn.net/m0_38068876/article/details/124677704
